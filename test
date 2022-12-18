@@ -1,0 +1,9 @@
+
+
+local ohTable1 = {
+	["Primary"] = "M16",
+	["Tertiary"] = "Satchel",
+	["Secondary"] = "Silent PPK"
+}
+
+game:GetService("ReplicatedStorage").Packages._Index["sleitnick_knit@1.4.7"].knit.Services.ArmoryService.RF.GiveGuns:InvokeServer(ohTable1)
